@@ -1,0 +1,181 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Segoe UI;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  overflow-x: hidden;
+}
+.section01 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.bg-image {
+  filter: brightness(25%);
+  width: 100%;
+  height: 110vh;
+}
+.Logo {
+  width: 180px;
+  height: 100px;
+}
+.Sec01-Logo {
+  position: absolute;
+  top: 0px;
+  left: 8%;
+}
+.div-main {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.Form {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+form {
+  position: absolute;
+  top: 15%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 660px;
+  width: 30vw;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.Form .Sign-In {
+  position: relative;
+  right: 25%;
+  top: 47px;
+}
+.Form input {
+  padding: 15px 120px 15px 13px;
+  margin-top: 15px;
+  background-color: rgba(27, 27, 27, 0.6);
+  border: 1px solid rgba(255, 167, 167, 0.538);
+  border-radius: 3px;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+}
+.Form .Input-Text {
+  margin-top: 78px;
+}
+.Form button {
+  padding: 10px 148px 10px 148px;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+.Form .Sign-btn:hover {
+  background-color: rgba(255, 0, 0, 0.855);
+  cursor: pointer;
+}
+.Form .Use-btn {
+  background-color: rgba(255, 255, 255, 0.256);
+  padding: 10px 108px 10px 108px;
+  border: none;
+}
+.Form .Use-btn:hover {
+  background-color: rgba(255, 255, 255, 0.206);
+  cursor: pointer;
+}
+.p-or {
+  color: rgba(255, 255, 255, 0.719);
+}
+.Forget-a {
+  color: white;
+}
+.Forget-a:hover {
+  color: rgba(255, 255, 255, 0.704);
+}
+.Form .Check-box {
+  position: relative;
+  right: 36%;
+}
+.Remember {
+  position: relative;
+  right: 22%;
+  bottom: 18px;
+}
+.New-to-netflix {
+  position: relative;
+  right: 16%;
+  color: rgba(255, 255, 255, 0.818);
+}
+.New-to-netflix a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.This-p {
+  position: relative;
+  top: 20px;
+  right: 1%;
+  color: rgba(255, 255, 255, 0.49);
+  font-size: 14px;
+}
+.Learn-a {
+  color: rgb(132, 132, 255);
+  font-size: 14px;
+  position: relative;
+  top: 28px;
+  right: 30%;
+}
+footer {
+  width: 100%;
+  height: 300px;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.685);
+  position: relative;
+  left: 11%;
+  top: 65px;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.685);
+  font-size: 15px;
+  font-weight: 500;
+}
+footer li {
+  margin: 10px 160px 15px 50px;
+  display: inline-block;
+}
+footer ul {
+  position: relative;
+  left: 8%;
+  top: 75px;
+  list-style: none;
+  text-align: start;
+}
+.Language-selection{
+  margin-top: 5px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding: 5px 35px 5px 25px;
+    text-align: center;
+    border-radius:5px ;
+    font-size: 15px;
+    outline-offset: 2px;
+}
+.Language-selection:hover{
+outline: 2px white solid;
+}
+
